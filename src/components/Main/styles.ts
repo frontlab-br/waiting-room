@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
-  background-color: #f4f4f4;
-  color: #000;
+  background-color: #050505;
+  color: #f7f7f7;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -21,13 +21,10 @@ export const Title = styled.h1`
 export const Subtitle = styled.h2`
   font-size: 1.5rem;
   font-weight: 400;
-  margin-bottom: 6rem;
+  color: #e6af20;
 `
 
-export const Illustration = styled.img`
-  width: min(30rem, 100%);
-  margin-bottom: 6rem;
-`
 export const Logo = styled.img`
-  width: 10rem;
+  width: min(25rem, 100%);
+  margin-bottom: 6rem;
 `
